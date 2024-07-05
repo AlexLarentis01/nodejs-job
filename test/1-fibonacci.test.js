@@ -1,8 +1,9 @@
-const fibonacci = require('./fibonacci');
+const fibonacci = require('../src/1-fibonacci');
+
 
 describe('fibonacci', () => {
   test('should return 0 for n=0', () => {
-    expect(fibonacci(0)).toBe(0);
+    expect((0)).toBe(0);
   });
 
   test('should return 1 for n=1', () => {

@@ -7,5 +7,4 @@ function fibonacci(n) {
   return fibonacci(n - 1) + fibonacci(n - 2);
 }
 
-// Example usage
-console.log(fibonacci(10)); // Expected output: 55
+module.exports = fibonacci;
